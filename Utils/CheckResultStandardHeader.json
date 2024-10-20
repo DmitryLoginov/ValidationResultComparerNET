@@ -1,0 +1,14 @@
+{
+    "Type" : "System.String",
+    "RuleUid" : "System.Guid",
+    "RuleId" : "System.Int64",
+    "ObjectUid" : "System.Guid",
+    "ObjectId" : "System.Int64",
+    "ObjectName" : "System.String",
+    "ClassName" : "System.String",
+    "Text" : "System.String",
+    "Groups" : "System.String",
+    "EnergyObject" : "System.String",
+    "MAS" : "System.String",
+    "ODU" : "System.String"
+}
