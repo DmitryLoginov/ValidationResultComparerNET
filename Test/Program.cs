@@ -1,8 +1,9 @@
 ﻿using Model;
+using Utils;
 using System.IO;
 using System.Text;
 
-string line;
+/*string line;
 StringBuilder sb = new StringBuilder();
 try
 {
@@ -30,6 +31,10 @@ finally
 {
     Console.ReadLine();
 }
+*/
 
+var csvSample = CsvCreator.CreateSampleCsv();
+
+File.WriteAllText(@"/home/dmitry/sample.csv", csvSample.ToString());
 
 Console.ReadLine();
